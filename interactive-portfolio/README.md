@@ -1,30 +1,48 @@
 # Interactive Analog IC Portfolio
 
-A responsive portfolio organized around two OTA mini projects, two design challenges, and a separate archive of 13 supporting labs.
+[Open the live portfolio](https://marwan-negm.github.io/analog-ic-design-portfolio/) · [Browse the lab archive](https://marwan-negm.github.io/analog-ic-design-portfolio/labs/)
+
+A responsive engineering portfolio organized around two OTA mini projects, two design challenges, and a separate archive of thirteen supporting labs.
 
 ## Experience
 
-- Main page: Miller OTA, fully differential folded-cascode OTA, bandgap reference, and Monticelli class-AB op amp.
+- Featured Miller OTA, fully differential folded-cascode OTA, bandgap reference, and Monticelli class-AB designs.
 - Direct viewing and downloading of all 17 PDF reports.
-- Result explorer with original simulation plots and source-specific conditions.
-- Separate lab archive with topic, simulation-flow, and text filters.
-- Professional navy, blue, and white electronics-oriented visual design.
+- Interactive result explorer with original plots and source-specific conditions.
+- Lab archive with topic, simulation-flow, and text filters.
+- Navy, blue, and white electronics-oriented visual design.
 
-## Local development
+## Development
 
-Requires Node.js 22.13 or later and pnpm.
+Requires Node.js 22.13 or later and pnpm 11.19.
 
 ```sh
 pnpm install
 pnpm dev
 ```
 
-Open the local address printed by the development server. Build with `pnpm build`.
+Build with `pnpm build` and inspect the production output with `pnpm preview`.
 
-## Source and report organization
+## GitHub Pages hosting
 
-The app uses React with the Vinext starter provided by Sites. The two routes are `/` and `/labs`.
+The website is a standalone React + TypeScript application built with Vite. It needs no server, login, API key, or proprietary hosting service.
 
-The `public/reports` directory mirrors the portfolio's PDFs so the hosted site can serve reports independently. The canonical project summaries, reports, and Monte Carlo datasets are in the [main repository](https://github.com/Marwan-Negm/analog-ic-design-portfolio).
+Pushing website changes to `main` triggers the [GitHub Pages workflow](../.github/workflows/deploy-portfolio.yml). It type-checks and builds the project, then publishes only `dist/` to GitHub Pages.
 
-The site retains original simulation evidence. No simulations were rerun while assembling the portfolio.
+The Vite base path is `/analog-ic-design-portfolio/`. Navigation, report downloads, and plot URLs all use that base path. Both the main page and `labs/` have real HTML entrypoints, so direct links and refreshes work on static hosting.
+
+## Project structure
+
+```text
+interactive-portfolio/
+  index.html             Main page
+  labs/index.html        Lab archive page
+  src/Portfolio.tsx      Content, cards, result explorer, and filters
+  src/main.tsx           React entrypoint
+  src/styles.css         Shared responsive styles
+  public/reports/        All 17 downloadable PDFs
+  public/results/        Original simulation plots and schematics
+  vite.config.ts         Static build and repository base path
+```
+
+The canonical project summaries, reports, and Monte Carlo datasets are in the [main repository](https://github.com/Marwan-Negm/analog-ic-design-portfolio). Report mirrors preserve the supplied PDFs, including the better-formatted Lab 10 report. No simulations were rerun.

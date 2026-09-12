@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  <a href="https://marwan-negm.github.io/analog-ic-design-portfolio/"><strong>Explore the interactive portfolio →</strong></a>
+</p>
+
+<p align="center">
   <a href="#mini-projects">Mini projects</a> ·
   <a href="#design-challenges">Design challenges</a> ·
   <a href="#other-labs">Other labs</a> ·
@@ -18,6 +22,8 @@
 </p>
 
 ## Overview
+
+The [live website](https://marwan-negm.github.io/analog-ic-design-portfolio/) is hosted publicly on GitHub Pages, with featured designs, an interactive results explorer, and a [separate lab archive](https://marwan-negm.github.io/analog-ic-design-portfolio/labs/). No sign-in is required.
 
 This repository is a curated analog integrated-circuit design portfolio organized around two OTA mini projects and two advanced design challenges, supported by thirteen transistor-level labs. The work spans MOS characterization, amplifiers, current mirrors, feedback, noise, stability, common-mode control, a self-biased sub-1 V bandgap reference, and a rail-to-rail class-AB op amp.
 
