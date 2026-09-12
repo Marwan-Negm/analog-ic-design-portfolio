@@ -1,0 +1,40 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Office temporary files
+~$*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# JavaScript / static-site builds
+node_modules/
+.next/
+dist/
+out/
+coverage/
+.vercel/
+.env*
+!.env.example
+
+# Cadence session and generated state
+*.cdslck*
+*.log
+*.rdb
+*.sdb
+*.oa-
+.sevSaveDir/
+**/test_states/
+**/results/data/
+
+# SPICE/Xschem generated output
+*.raw
+
+# Temporary work
+tmp/
+temp/

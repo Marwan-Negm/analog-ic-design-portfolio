@@ -1,0 +1,17 @@
+Cadence Virtuoso / Spectre stability run
+Run: Interactive.184
+Completed: 2026-09-10 09:56:49
+
+Conditions
+  Corner: Nominal
+  Input common-mode voltage: 1.25 V
+  Compensation capacitor: 1.65 pF
+
+Results
+  Gain-bandwidth product: 10.11 MHz
+  Phase margin: 60.58 degrees
+  Simulation errors: 0
+
+Status
+  Latest completed nominal design point found in the source archive.
+  PVT qualification and a consolidated final report were not present.
