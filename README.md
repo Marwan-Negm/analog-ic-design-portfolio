@@ -61,20 +61,68 @@ For full analytical-versus-simulation tables and result provenance, see [Detaile
 
 <table>
   <tr>
-    <td width="50%"><img src="assets/results/miller-ota-open-loop-gain.png" alt="Two-stage Miller OTA open-loop gain"></td>
-    <td width="50%"><img src="assets/results/folded-cascode-ota-schematic.png" alt="Fully differential folded-cascode OTA schematic"></td>
+    <td width="50%" valign="top">
+      <a href="assets/results/miller-ota-schematic.png">
+        <img src="assets/results/miller-ota-schematic.png" width="100%" alt="Two-stage Miller OTA transistor-level schematic">
+      </a>
+      <p align="center">
+        <strong>Mini Project 01</strong><br>
+        Two-stage Miller OTA topology
+      </p>
+      <a href="assets/results/miller-ota-open-loop-gain.png">
+        <img src="assets/results/miller-ota-open-loop-gain.png" width="100%" alt="Two-stage Miller OTA open-loop gain and phase response">
+      </a>
+      <p align="center">
+        <em>Open-loop gain and phase response</em>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="assets/results/folded-cascode-ota-schematic.png">
+        <img src="assets/results/folded-cascode-ota-schematic.png" width="100%" alt="Fully differential folded-cascode OTA transistor-level schematic">
+      </a>
+      <p align="center">
+        <strong>Mini Project 02</strong><br>
+        Fully differential folded-cascode topology
+      </p>
+      <a href="assets/results/folded-cascode-ota-settling.png">
+        <img src="assets/results/folded-cascode-ota-settling.png" width="100%" alt="Fully differential folded-cascode OTA closed-loop settling response">
+      </a>
+      <p align="center">
+        <em>Closed-loop settling response</em>
+      </p>
+    </td>
   </tr>
   <tr>
-    <td align="center"><strong>Mini Project 01</strong><br>Two-stage Miller OTA open-loop response</td>
-    <td align="center"><strong>Mini Project 02</strong><br>Fully differential folded-cascode topology</td>
-  </tr>
-  <tr>
-    <td width="50%"><img src="assets/results/bandgap-temperature-corners.png" alt="Bandgap reference voltage over temperature and corners"></td>
-    <td width="50%"><a href="assets/results/class-ab-schematic.png"><img src="assets/results/class-ab-schematic.png" alt="Complete Monticelli rail-to-rail class-AB op amp schematic"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><strong>Design Challenge 01</strong><br>Bandgap Part 2 temperature/corner sweep</td>
-    <td align="center"><strong>Design Challenge 02</strong><br>Complete Monticelli class-AB topology</td>
+    <td width="50%" valign="top">
+      <a href="assets/results/bandgap-schematic-new.png">
+        <img src="assets/results/bandgap-schematic-new.png" width="100%" alt="Self-biased sub-1 V bandgap reference transistor-level schematic">
+      </a>
+      <p align="center">
+        <strong>Design Challenge 01</strong><br>
+        Self-biased sub-1 V bandgap topology
+      </p>
+      <a href="assets/results/bandgap-temperature-corners.png">
+        <img src="assets/results/bandgap-temperature-corners.png" width="100%" alt="Bandgap reference voltage over temperature and MOS corners">
+      </a>
+      <p align="center">
+        <em>Temperature and MOS-corner response</em>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="assets/results/class-ab-schematic.png">
+        <img src="assets/results/class-ab-schematic.png" width="100%" alt="Complete Monticelli rail-to-rail class-AB op amp schematic">
+      </a>
+      <p align="center">
+        <strong>Design Challenge 02</strong><br>
+        Complete Monticelli class-AB topology
+      </p>
+      <a href="assets/results/class-ab-loop-gain.png">
+        <img src="assets/results/class-ab-loop-gain.png" width="100%" alt="Monticelli rail-to-rail class-AB op amp loop-gain response">
+      </a>
+      <p align="center">
+        <em>Nominal loop-gain and phase response</em>
+      </p>
+    </td>
   </tr>
 </table>
 
