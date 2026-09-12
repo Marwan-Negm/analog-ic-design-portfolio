@@ -70,11 +70,11 @@ For full analytical-versus-simulation tables and result provenance, see [Detaile
   </tr>
   <tr>
     <td width="50%"><img src="assets/results/bandgap-temperature-corners.png" alt="Bandgap reference voltage over temperature and corners"></td>
-    <td width="50%"><img src="assets/results/class-ab-loop-gain.png" alt="Rail-to-rail class-AB op amp loop gain"></td>
+    <td width="50%"><a href="assets/results/class-ab-schematic.png"><img src="assets/results/class-ab-schematic.png" alt="Complete Monticelli rail-to-rail class-AB op amp schematic"></a></td>
   </tr>
   <tr>
     <td align="center"><strong>Design Challenge 01</strong><br>Bandgap Part 2 temperature/corner sweep</td>
-    <td align="center"><strong>Design Challenge 02</strong><br>Nominal Class-AB loop gain</td>
+    <td align="center"><strong>Design Challenge 02</strong><br>Complete Monticelli class-AB topology</td>
   </tr>
 </table>
 
